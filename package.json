@@ -1,23 +1,46 @@
 {
-  "name": "lib-name",
-  "version": "0.0.1",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "dev": "nodemon --exec ts-node src/index.ts",
-    "prepare": "yarn  build"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^3.0.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
-  },
-  "dependencies": {
-    "puppeteer-extra-plugin": "^3.2.3"
-  }
+    "name": "t2-puppeteer-plugin-random-ua",
+    "version": "0.0.1",
+    "description": "Random User-agent in puppeteer",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "repository": "https://github.com/T2DATA/t2-puppeteer-plugin-random-ua",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon --exec ts-node src/index.ts",
+        "prepare": "yarn  build"
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=14"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "puppeteer-extra-plugin": "^3.2.3"
+    },
+    "peerDependencies": {
+        "puppeteer-extra": "*"
+    },
+    "peerDependenciesMeta": {
+        "puppeteer-extra": {
+            "optional": true
+        }
+    },
+    "keywords": [
+      "puppeteer",
+      "puppeteer-extra",
+      "puppeteer-extra-plugin",
+      "random-user-agent",
+      "chrome",
+      "headless",
+      "pupeteer"
+    ]
+
 }
