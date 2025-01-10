@@ -1,7 +1,7 @@
 {
     "name": "t2-puppeteer-plugin-random-ua",
     "version": "0.0.1",
-    "description": "Random User-agent in puppeteer",
+    "description": "A Puppeteer plugin for random user-agents.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
@@ -15,10 +15,11 @@
     },
     "license": "MIT",
     "engines": {
-      "node": ">=14"
+        "node": ">=14"
     },
     "devDependencies": {
         "nodemon": "^3.0.3",
+        "puppeteer": "^24.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.3.3"
     },
@@ -34,13 +35,12 @@
         }
     },
     "keywords": [
-      "puppeteer",
-      "puppeteer-extra",
-      "puppeteer-extra-plugin",
-      "random-user-agent",
-      "chrome",
-      "headless",
-      "pupeteer"
+        "puppeteer",
+        "puppeteer-extra",
+        "puppeteer-extra-plugin",
+        "random-user-agent",
+        "chrome",
+        "headless",
+        "pupeteer"
     ]
-
 }
