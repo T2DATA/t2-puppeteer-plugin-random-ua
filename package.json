@@ -7,7 +7,7 @@
     "files": [
         "lib"
     ],
-    "repository": "https://github.com/T2DATA/t2-puppeteer-plugin-random-ua",
+    "repository": "https://github.com/T2LEAF/t2-puppeteer-plugin-random-ua",
     "scripts": {
         "build": "tsc",
         "dev": "nodemon --exec ts-node src/index.ts",

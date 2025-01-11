@@ -35,7 +35,7 @@ import randomUserAgent from 't2-puppeteer-plugin-random-ua';
   const page = await browser.newPage();
   
   // Attach the plugin
-  randomUserAgent(page).onPageCreated(page)
+  randomUserAgent().onPageCreated(page)
   
   await page.goto('https://example.com');
 
